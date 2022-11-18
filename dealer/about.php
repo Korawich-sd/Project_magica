@@ -25,7 +25,7 @@ require_once '../config/db.php';
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 </head>
 
-<body>
+<body style="font-family: 'Kanit', sans-serif ;">
       <!-- Header Zone-->
       <header class="container-fluid" id="navbar">
         <nav class="navbar-container container-fluid">
