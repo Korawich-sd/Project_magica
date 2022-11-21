@@ -2871,6 +2871,20 @@ MOBILE .box-sidebar-mypur {
     font-size: 16px;
 }
 
+/* Policy */
+
+#txt-title-policy {
+    width: 80%;
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#txt-content-policy {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* //////////// Mobile ////////////// */
 @media screen and (max-width: 576px) {
 
@@ -5419,12 +5433,12 @@ MOBILE .box-sidebar-mypur {
 
     .box-l-about {
         width: 50%;
-     margin: 0 auto;
+        margin: 0 auto;
     }
 
     .box-r-about {
         width: 50%;
-       margin: 0 auto;
+        margin: 0 auto;
     }
 
     .box-l-about iframe {
@@ -5446,6 +5460,20 @@ MOBILE .box-sidebar-mypur {
 
     #txt-content-about {
         font-size: 16px;
+    }
+
+    /* Policy */
+
+    #txt-title-policy {
+        width: 80%;
+        font-size: 24px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    #txt-content-policy {
+        width: 80%;
+        margin: 0 auto;
     }
 
 }
@@ -8325,5 +8353,19 @@ MOBILE .box-sidebar-mypur {
 
     #txt-content-about {
         font-size: 16px;
+    }
+
+    /* Policy */
+
+    #txt-title-policy {
+        width: 70%;
+        font-size: 24px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    #txt-content-policy {
+        width: 70%;
+        margin: 0 auto;
     }
 }

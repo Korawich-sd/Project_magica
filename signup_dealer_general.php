@@ -138,7 +138,7 @@ $query = $sql_provinces->fetchAll();
                     </div>
                     <div class="container" style="align-items: center; display: flex;padding-left: 0px; margin-left: 0px; margin-bottom: 30px;">
                         <input type="checkbox" name="cb" id="cb" style="width: 50px; height: 20px;">
-                        <span>ฉันยอมรับ <a href="#">ข้อกำหนดและเงื่อนไข</a></span>
+                        <span>ฉันยอมรับ <a href="privacy_policy.php" target="_blank">ข้อกำหนดและเงื่อนไข</a></span>
                     </div>
                     <div class="container" style="display: flex; justify-content: center;">
                         <button type="submit" name="signup_dealer_general" class="btn" id="btn-signup">ลงทะเบียน</button>

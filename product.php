@@ -28,7 +28,7 @@ if (isset($_GET['search'])) {
     $stmt->execute();
     $result = $stmt->fetchAll();
 } else {
-    $stmt = $conn->prepare("SELECT * FROM product");
+    $stmt = $conn->prepare("SELECT * FROM product WHERE t_id < 3");
     $stmt->execute();
     $result = $stmt->fetchAll();
 }
