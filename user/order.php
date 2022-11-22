@@ -562,10 +562,10 @@ if (isset($_POST['submit_order'])) {
                                 <input class="radio__input" type="radio" value="1" name="payment_method" hidden>
                                 <span class="radio__span " id="mobile-banking" data-bs-toggle="modal" data-bs-target="#paymentModal"> <img src="../asset/img/kbank-icon.png" class="icon-mobile-banking" alt="">Mobile Banking</span>
                             </label>
-                            <label class="radio">
+                            <!-- <label class="radio">
                                 <input class="radio__input" type="radio" value="2" name="payment_method" hidden disabled>
                                 <span class="radio__span"><img src="../asset/img/icon-credit.png" class="icon-credit" alt="">บัตรเครดิต/เดบิต</span>
-                            </label>
+                            </label> -->
                             <label class="radio">
                                 <input class="radio__input" type="radio" value="3" name="payment_method" hidden>
                                 <span class="radio__span" id="money"> <img src="../asset/img/icon-money.png" class="icon-money" alt="">ชำระเงินปลายทาง</span>
