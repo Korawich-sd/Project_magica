@@ -3,7 +3,11 @@
 <div class="flex-shrink-0  bg-white" >
         <div class="p-bg-menu" style="padding-left: 0px; padding-right: 0px;">
             <div class="p-sub-bg-menu">
-                <img class="p-profile-icon" src="../asset/img/profile-icon.png" alt="">
+            <img class="p-profile-icon" src="../asset/upload/profile_user/<?php if ($row['m_img'] == null) {echo "profile-icon.png";
+                                                            } else {
+                                                                echo $row['m_img'];
+                                                            }
+                                                            ?>" alt="">
                 <p class="p-name-menu"><?php echo $row['firstname'] ?> </p>
                 <p class="p-sub-name-menu"><i class="bi bi-pencil-fill"></i> แก้ไขข้อมูลส่วนตัว</p>
 

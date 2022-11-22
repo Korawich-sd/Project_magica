@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 session_start();
 require_once '../config/db.php';
 
-//error_reporting(0);
+error_reporting(0);
 if (!isset($_SESSION['dealer_login'])) {
     $_SESSION['error'] = 'กรุณาเข้าสู่ระบบ';
     header("location: signin.php");
@@ -555,7 +555,7 @@ if (isset($_POST['submit_order'])) {
                         <span>เลือกวิธีชำระเงิน</span>
                         <div class="radio-buttons-list">
                             <label class="radio">
-                                <input class="radio__input" type="radio" value="1" name="payment_method" checked="" hidden>
+                                <input class="radio__input" type="radio" value="1" name="payment_method"  hidden>
                                 <span class="radio__span " id="mobile-banking" data-bs-toggle="modal" data-bs-target="#paymentModal"> <img src="../asset/img/kbank-icon.png" class="icon-mobile-banking" alt="">Mobile Banking</span>
                             </label>
                             <label class="radio">

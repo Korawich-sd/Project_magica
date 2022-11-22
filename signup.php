@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 require_once 'config/db.php';
 
@@ -150,8 +149,5 @@ $query = $sql_provinces->fetchAll();
 <!-- ///// Footer   -->
 <?php include('../magica/footer.php') ?>
 <!-- ///// Footer   -->
-
 <script src="/magica/action.js"></script>
-
-
-<?php include('/xampp/htdocs/magica/config/ad_script.php'); ?>
+<?php include('config/ad_script.php'); ?>
